@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:f34fc48887121ccd758549a67893f8a4$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="test.png" width="128" height="128">
+    <sprite n="TankFrame1.png" x="0" y="0" w="64" h="64"/>
+    <sprite n="TankFrame2.png" x="64" y="0" w="64" h="64"/>
+    <sprite n="TankFrame3.png" x="0" y="64" w="64" h="64"/>
+    <sprite n="TankFrame4.png" x="64" y="64" w="64" h="64"/>
+</TextureAtlas>
